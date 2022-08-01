@@ -6,7 +6,6 @@ let js_dropdown = document.querySelector(".js_dropdown");
 
 js_dropdown_holder.addEventListener("click", function () {
   js_dropdown.classList.toggle("js_dropdown_active");
-  return;
 });
 
 // SECOND DROPDOWN
