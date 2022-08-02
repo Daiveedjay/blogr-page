@@ -19,76 +19,144 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;500;600&family=Ubuntu:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
     <title>Frontend Mentor | [Blogr]</title>
   </head>
   <body>
     <section class="hero-section">
-      <header class="hero-header">
-        <nav class="max-width">
-          <div class="left-nav">
+      <header class="hero-header max-width">
+        <nav class="max-width d_f">
+          <div class="left-nav .d_f">
             <span class="logo">
               <img src="./images/logo.svg" alt="" />
             </span>
-            <ul class="left-nav-lists">
-              <li class="nav-list-item js_dropdown_holder">
+            <ul class="left-nav-lists d_f">
+              <li class="nav-list-item">
                 <p>
                   <a href="#">Product</a><i class="fa-solid fa-angle-down"></i>
                 </p>
-                <ul class="dropdown js_dropdown">
+                <!-- <ul>
                   <li>Product</li>
                   <li>Company</li>
                   <li>Connect</li>
                   <li>Planning</li>
-                </ul>
+                </ul> -->
               </li>
-              <li class="nav-list-item js_dropdown_holder_Two">
+              <li class="nav-list-item">
                 <p>
                   <a href="#">Company</a><i class="fa-solid fa-angle-down"></i>
                 </p>
-                <ul class="dropdown js_dropdown_Two">
+                <!-- <ul >
                   <li>History</li>
                   <li>Our Team</li>
                   <li>Blog</li>
-                </ul>
+                </ul> -->
               </li>
-              <li class="nav-list-item js_dropdown_holder_Three">
+              <li class="nav-list-item">
                 <p>
                   <a href="#">Connect</a><i class="fa-solid fa-angle-down"></i>
                 </p>
-                <ul class="dropdown js_dropdown_Three">
+                <!-- <ul>
                   <li>History</li>
                   <li>Our Team</li>
                   <li>Blog</li>
-                </ul>
+                </ul> -->
               </li>
             </ul>
           </div>
           <div class="right-nav">
-            <ul class="right-nav-lists">
+            <ul class="right-nav-lists d_f">
               <li class="nav-list-item">Login</li>
               <li class="nav-list-item">Register</li>
             </ul>
           </div>
+          <div class="mobile-nav">
+            <div class="nav-open">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- <div class="nav-close">
+              <i class="fa-solid fa-xmark"></i>
+            </div> -->
+
+            <!-- <div class="mobile-nav-slide">
+              <ul class="mobile-list-slide">
+                <li class="nav-list-item">
+                  <p>
+                    <a href="#">Features</a
+                    ><i class="fa-solid fa-angle-down"></i>
+                  </p>
+                  <ul class="mobile-dropdown">
+                    <li>
+                      <span>
+                        <img src="./images/icon-todo.svg" alt="" />
+                      </span>
+                      <p>Todo List</p>
+                    </li>
+                    <li>
+                      <span>
+                        <img src="./images/icon-calendar.svg" alt="" />
+                      </span>
+                      <p>Calender</p>
+                    </li>
+                    <li>
+                      <span>
+                        <img src="./images/icon-reminders.svg" alt="" />
+                      </span>
+                      <p>Reminders</p>
+                    </li>
+                    <li>
+                      <span>
+                        <img src="./images/icon-planning.svg" alt="" />
+                      </span>
+                      <p>Planning</p>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-list-item">
+                  <p>
+                    <a href="#">Company</a
+                    ><i class="fa-solid fa-angle-down"></i>
+                  </p>
+                  <ul class="mobile-dropdown">
+                    <li>
+                      <span>History</span>
+                    </li>
+                    <li>
+                      <span>Our Team</span>
+                    </li>
+                    <li>
+                      <span>Blog</span>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-list-item">Careers</li>
+                <li class="nav-list-item">About</li>
+                <li class="nav-list-item">Login</li>
+                <li class="nav-list-item">Register</li>
+              </ul>
+            </div> -->
+          </div>
         </nav>
       </header>
-      <div class="hero-text-section">
-        <h1 class="hero-lead-text max-width">A modern publishing platform</h1>
-        <p class="hero-sub-text max-width">
+      <div class="hero-text-section max-width d_f">
+        <h1 class="hero-lead-text">A modern publishing platform</h1>
+        <p class="hero-sub-text">
           Grow your audience and build your online brand
         </p>
-        <div class="hero-text-buttons max-width">
+        <div class="hero-text-buttons d_f">
           <button>Start for Free</button>
           <button>Learn More</button>
         </div>
       </div>
     </section>
     <section class="description-section">
-      <h2 class="description-header header-primary max-width">
+      <h2 class="description-header header-primary max-width d_f">
         Designed for the future
       </h2>
-      <div class="description-contents max-width">
-        <div class="description-text-area">
+      <div class="description-contents max-width d_f">
+        <div class="description-text-area d_f">
           <div class="description-one">
             <h2 class="header-secondary">Introducing an extensible editor</h2>
             <p class="text-primary">
@@ -110,24 +178,22 @@
             </p>
           </div>
         </div>
-        <div class="description-image-area max-width">
-          <div class="description-image-container">
-            <img src="./images/illustration-editor-desktop.svg" alt="" />
-          </div>
+        <div class="description-image-area d_f">
+          <img src="./images/illustration-editor-desktop.svg" alt="" />
         </div>
       </div>
     </section>
     <section class="services-section">
-      <div class="services-phone-wrapper max-width">
-        <img class="phones" src="./images/illustration-phones.svg" alt="" />
+      <div class="services-components max-width d_f">
         <div class="services-image-area">
-          <img
+          <!-- <img
             class="circle-pattern"
             src="./images/bg-pattern-circles.svg"
             alt=""
-          />
+          /> -->
+          <img class="phones" src="./images/illustration-phones.svg" alt="" />
         </div>
-        <div class="services-text-area max-width">
+        <div class="services-text-area max-width d_f">
           <h2 class="header-primary">State of the Art Infrastructure</h2>
           <p class="text-primary">
             With reliability and speed in mind, worldwide data centers provide
@@ -139,11 +205,11 @@
       </div>
     </section>
     <section class="features-section">
-      <div class="features-content max-width">
-        <div class="features-image-area">
+      <div class="features-content max-width d_f">
+        <div class="features-image-area d_f">
           <img src="./images/illustration-laptop-desktop.svg" alt="" />
         </div>
-        <div class="features-text-area">
+        <div class="features-text-area d_f">
           <div class="feature-one">
             <h2 class="header-secondary">Introducing an extensible editor</h2>
             <p class="text-primary">
@@ -167,10 +233,12 @@
         </div>
       </div>
     </section>
-    <footer class="footer-section">
-      <div class="footer-components">
-        <div class="footer-logo"><img src="./images/logo.svg" alt="" /></div>
-        <ul class="footer-product-list">
+    <footer class="footer-section d_f">
+      <div class="footer-components max-width d_f">
+        <div class="footer-logo d_f">
+          <img src="./images/logo.svg" alt="" />
+        </div>
+        <ul class="footer-product-list d_f">
           <h3>Product</h3>
           <li>Overview</li>
           <li>Product</li>
@@ -178,25 +246,33 @@
           <li>Features</li>
           <li>Integrations</li>
         </ul>
-        <ul class="footer-company-list">
+        <ul class="footer-company-list d_f">
           <h3>Company</h3>
           <li>About</li>
           <li>Team</li>
           <li>Blog</li>
           <li>Careers</li>
         </ul>
-        <ul class="footer-connect-list">
+        <ul class="footer-connect-list d_f">
           <h3>Connect</h3>
           <li>Contact</li>
           <li>Newsletter</li>
           <li>LinkedIn</li>
         </ul>
       </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+        Coded by <a href="#">David Jaja</a>
+      </div>
     </footer>
   </body>
   <script defer src="./script.js"></script>
 </html>
 
+<!-- <div class="services-background-wrapper d_f"></div> -->
 <!-- <div class="attribution">
   Challenge by
   <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

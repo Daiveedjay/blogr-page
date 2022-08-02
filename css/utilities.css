@@ -1,0 +1,27 @@
+.max-width {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.header-primary {
+  font-size: 3rem;
+  font-family: "Overpass", sans-serif;
+}
+
+.header-secondary {
+  font-size: 2rem;
+  font-family: "Overpass", sans-serif;
+  color: var(--header-color);
+}
+
+.text-primary {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-family: "Overpass", sans-serif;
+  font-weight: 500;
+}
+
+/* DISPLAY FLEX */
+.d_f {
+  display: flex;
+}
