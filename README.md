@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Daiveedjay/blogr-page)
-- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/blogr-femc/settings/general)
+- Live Site URL: [Add live site URL here](https://blogr-femc.netlify.app/)
 
 ### Built with
 
