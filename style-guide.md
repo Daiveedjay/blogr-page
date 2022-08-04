@@ -47,3 +47,6 @@ Background gradient - body:
 
 - Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
 - Weights: 400, 500, 700
+
+All utiliy classes are written with single
+All regular classes are written with hiphen (-)

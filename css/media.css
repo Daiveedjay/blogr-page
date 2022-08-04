@@ -66,7 +66,7 @@
   }
 }
 
-/* 850px */
+/* 850px Screen and below  */
 @media (max-width: 53.125em) {
   .left-nav-lists .nav-list-item {
     display: none;
@@ -84,7 +84,7 @@
 }
 
 /* TABLET SCREENS */
-/* 700px */
+/* 700px Screen and below  */
 @media (max-width: 43.75em) {
   .hero-section {
     background-image: url("../images/bg-pattern-intro-mobile.svg"),
@@ -96,6 +96,11 @@
       );
     background-size: 300%;
     background-position: center;
+  }
+
+  .mobile-nav-slide {
+    transform: translateX(-75vw);
+    width: 70vw;
   }
   .description-section {
     margin: 8rem 0;
@@ -152,6 +157,7 @@
   }
 }
 
+/* For screens having a width of 700px or less AND a height of 820px or less*/
 @media (max-width: 43.75em) and (min-height: 51em) {
   .phones {
     width: 20rem;
@@ -159,9 +165,6 @@
 }
 /* 600px and below */
 @media (max-width: 37.5em) {
-  /* .hero-text-section .hero-lead-text {
-    font-size: 3rem;
-  } */
   .description-section .header-primary {
     font-size: 2.5rem;
   }
@@ -181,7 +184,7 @@
   }
 }
 
-/* 550px */
+/* 550px Screen and below  */
 @media (max-width: 34.375em) {
   .hero-text-section .hero-sub-text {
     font-size: 1.5rem;
@@ -191,6 +194,16 @@
   }
 }
 
+/* 500px screen and below */
+@media (max-width: 31.35em) {
+  .mobile-nav-slide {
+    top: 22.5vh;
+    width: 90vw;
+    transform: translateX(-82.5vw);
+  }
+}
+
+/* For screens having of a width of 550px or less AND a height of 720px or less */
 @media (max-width: 34.375em) and (max-width: 45.1em) {
   .phones {
     width: 20rem;
@@ -199,15 +212,29 @@
   }
 }
 
+/* For screens having of a width of 550px or less AND a height of 820px or less */
+@media (max-width: 34.375em) and (max-width: 51.25em) {
+  .phones {
+    top: -30%;
+  }
+}
+
 /* 450px */
 @media (max-width: 28.125em) {
   html {
-    /* 7px per rem */
     font-size: 43.75%;
   }
 
   .hero-section .left-nav .logo img {
     width: 80%;
+  }
+
+  .mobile-list-slide .nav-list-item a {
+    font-size: 2.5rem;
+  }
+
+  .mobile-list-slide div button {
+    font-size: 2rem;
   }
 
   .hero-text-section .hero-lead-text {
@@ -217,14 +244,12 @@
 
   .phones {
     left: 30%;
-  }
-  .phones {
     top: -35%;
     width: 25rem;
-    left: 30%;
   }
 }
 
+/* For screens having of a width of 450px or less AND a height of 915px or less */
 @media (max-width: 28.125em) and (min-height: 57.16em) {
   .phones {
     top: 0%;
@@ -232,42 +257,43 @@
     left: 30%;
   }
 }
-@media (max-width: 28.125em) and (max-height: 57.16em) {
-  .phones {
-    top: 0%;
-    width: 25rem;
-    left: 30%;
-  }
-}
-/* 400px */
+/* 400px Screen and below  */
 @media (max-width: 25em) {
   .hero-text-section .hero-lead-text {
     padding: 0 4rem;
-    /* font-size: 4rem; */
   }
   .phones {
     top: -10%;
   }
 }
 
+/* For screens having of a width of 400px or less AND a height of 670px or less */
 @media (max-width: 25.1em) and (max-height: 41.69) {
   .phones {
     top: -90%;
   }
 }
 
-/* 350px */
+/* 350px Screen and below  */
 @media (max-width: 21.875em) {
   html {
     /* 6px per rem */
     font-size: 37.5%;
   }
+  .mobile-list-slide .nav-list-item a {
+    font-size: 3rem;
+  }
+  .mobile-list-slide div button {
+    font-size: 2.2rem;
+  }
+  .mobile-nav-slide {
+    width: 95vw;
+  }
 }
-/* 320px */
+/* 320px Screen and below */
 @media (max-width: 20em) {
   .hero-text-section .hero-lead-text {
     padding: 0 2rem;
-    /* font-size: 4rem; */
   }
 
   .description-section {
@@ -278,14 +304,3 @@
     left: 25%;
   }
 }
-
-/*  Max Height  */
-/* 850px */
-/* @media (min-height: 53.12em) {
-  body {
-    display: none;
-  }
-  .phones {
-    top: 5%;
-  }
-} */
